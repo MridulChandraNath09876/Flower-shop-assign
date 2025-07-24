@@ -10,9 +10,21 @@
     color: #E95A08;
 }
 
+.primaryBtn{
+    background-color:#E95A08 ;
+    color: #ffff;
+    width: 270px;
+    height: 2rem;
+    height: auto;
+    border: none;
+    padding: 0.5rem;
+}
+
 /* common style */
 body{
     margin: 1rem 7rem;
+  
+    overflow-x: hidden;
 }
 
 
@@ -61,6 +73,74 @@ body{
 }
 
 
+/* Plants section here */
+.plantsSection h2{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+}
+
+.plantsSection p{
+    padding: 0.5rem 5rem;
+}
+
+
+.plantsContainer{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.plantsCart{
+   
+    margin-top: 20px;
+}
+
+.plantsCart p {
+    margin-top: 0.5rem; /* Reduce vertical spacing */
+    padding: 0;         /* Remove any extra padding */
+}
+
+.plantsName, .plantsPrice{
+    font-size: 1rem;
+    font-weight:400;
+    white-space: nowrap;
+}
+.plantsPrice{
+    font-weight: 600;
+}
+
+
+/* plants lover section */
+.plantsLoverSection{
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.plantsStore img{
+    width: 480px ;
+    height: 500px;
+
+}
+
+.plantsStoreDescription h1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.plantsStoreDescription ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.plantsStoreDescription li {
+  margin-bottom: 0.5rem;
+  color: #555; 
+}
+
+
 
 
 
@@ -92,7 +172,7 @@ body{
 
 @media screen and (max-width: 600px) {
     body{
-        margin: 1rem;
+        margin: 0rem;
     }
 
     .NavbarSection{
@@ -104,9 +184,9 @@ body{
         display: none;
       }
     
-      /* Show only the cart item */
+      
       .cart-item {
-        display: block !important; /* Force it to show */
+        display: block 
       }
     
       .cart-item img {
@@ -137,5 +217,46 @@ body{
       
         text-align: left;
     }
+
+
+    /* Plants section */
+
+    .plantsSection p{
+        padding: 0;
+        text-align: center;
+    }
+    .plantsContainer{
+
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .plantsCart{
+       
+        margin-top: 20px;
+    }
+
+    /* Plants store section */
+    .plantsLoverSection{
+        margin-top: 0px;
+       
+        flex-direction: column;
+    }
+    .mobile-hide-break{
+        display: none;
+    }
+
+    .plantsStoreDescription ul {
+        padding-left: 0rem;
+      
+      }
+      
+      .plantsStoreDescription li {
+        margin-bottom: 0.5rem;
+        color: #555; 
+      }
+      
+    
     
 }
