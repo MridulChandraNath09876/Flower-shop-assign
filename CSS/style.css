@@ -358,7 +358,13 @@ body{
         margin-top: 20px;
     }
 
-    /* Plants store section */
+    /* Plants lover store section */
+    .plantStore{
+        height: 25rem;
+        width: 22rem;
+    }
+   
+      
     .plantsLoverSection{
         margin-top: 0px;
        
