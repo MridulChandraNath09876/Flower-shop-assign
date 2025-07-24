@@ -245,6 +245,22 @@ body{
     height: 2rem;
   }
 
+  /* Footer section */
+
+  footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 2rem;
+  }
+
+  .InfoFooter{
+    display: flex;
+    gap: 2rem;
+  }
+
 
 
 
@@ -410,6 +426,23 @@ body{
     width: 4rem;
     height: 2rem;
   }
+
+
+  /* footer section */
+  footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 2rem;
+  }
+
+  .InfoFooter{
+    display: flex;
+    gap: 2rem;
+  }
+
 
 } 
       
