@@ -6,6 +6,10 @@
     color: #8987A1;
 }
 
+.font-color-orange{
+    color: #E95A08;
+}
+
 /* common style */
 body{
     margin: 1rem 7rem;
@@ -40,6 +44,47 @@ body{
     margin-right: 5px;
 }
 
+/* Banner section  */
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-description h1{
+    font-size: 3rem;
+}
+
+.banner-image img{
+    width: 30rem;
+    height: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* For mobile device */
@@ -71,4 +116,26 @@ body{
         margin-right: 5px;
        
       }
+
+      /* banner section */
+
+      .banner{
+        flex-direction: column;
+        text-align: center;
+        
+      }
+      .banner-image{
+        margin: 2rem 1rem;
+        order: -1;
+      }
+
+      .banner-description h1{
+        font-size: 1.5rem;
+        text-align: left;
+     }  
+     .banner-description p{
+      
+        text-align: left;
+    }
+    
 }
