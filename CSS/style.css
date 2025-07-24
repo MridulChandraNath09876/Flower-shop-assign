@@ -117,6 +117,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
+   
 }
 
 .plantsStore img{
@@ -167,6 +168,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     align-items: stretch;
+    width: 1400px;
+    margin-left: 20px;
 
   }
   
@@ -211,6 +214,37 @@ body{
   }
   
 
+  /* Join section  */
+  .joinSection{
+    width:auto;
+    height: 550px;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .joinSection h2{
+    font-size: 2rem;
+    color: #ffff;
+  }
+
+  .writeEmailContainer input {
+    width: 25rem;
+    height: 1.9rem;
+  
+  }
+
+  .writeEmailContainer button{
+    width: 7rem;
+    height: 2rem;
+  }
+
 
 
 
@@ -254,7 +288,7 @@ body{
     .nav-item {
         display: none;
       }
-    
+
       
       .cart-item {
         display: block 
@@ -313,6 +347,7 @@ body{
         margin-top: 0px;
        
         flex-direction: column;
+      
     }
     .mobile-hide-break{
         display: none;
@@ -333,6 +368,8 @@ body{
       .deals-grid {
         display: grid;
         grid-template-columns: 1fr;
+        margin-left: 0px;
+        width: auto;
       }
 
       .deal-card.large {
@@ -342,6 +379,37 @@ body{
       .deal-card.small{
         height: 200px;
       }
-    
+
+      .joinSection{
+        width:auto;
+        height: auto;
+        background-image: url('../assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+      
+      }
+      .joinSection h2{
+        font-size: 1rem;
+        
+      }
+
+      
+  .writeEmailContainer input {
+    width: 10rem;
+    height: 1.9rem;
+  
+  }
+
+  .writeEmailContainer button{
+    width: 4rem;
+    height: 2rem;
+  }
+
 } 
       
